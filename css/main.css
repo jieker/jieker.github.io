@@ -41,12 +41,13 @@ body {
 
 hr {
     display: block;
-    height: 2px;
+    height: 4px;
     border: 0;
     margin: 0 auto;
     padding: 0;
-    max-width: 27px;
-    background-color: #F10061;
+    max-width: 37px;
+    background-color: #0084C1;
+    /* background-color: #F10061; */
 }
 
 img {
@@ -126,7 +127,8 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;    
     padding: 0 45px;
     line-height: 55px;
-    background-color: #F10061;
+    background-color: #0076AD;
+    /* background-color: #F10061; */
 
     -webkit-border-radius: 45px;
        -moz-border-radius: 45px;
@@ -171,7 +173,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .but:hover,
 .but:active {
-    background-color: #F83E89;
+    /* background-color: #F83E89; */
+    background-color: #008BCC;
 }
 
 /* ==========================================================================
@@ -375,7 +378,9 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     overflow: hidden;
     padding: 150px 0;
+   
 }
+
 
 .about-content h3,
 .services-content h3,
@@ -410,7 +415,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 #home {
     background-color: rgba(0,0,0, .5);
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/skills.jpg);
+    /* background-image: url(../img/header-bg.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1254,4 +1260,4 @@ h1, h2, h3, h4, h5, h6, p {
             width:100%;
         }
     }
-
+  
